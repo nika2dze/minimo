@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    margin: 0 auto;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+    width: 100%;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2% 3%;
+}
+header span{
+    font-size: 30px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    width: 40%;
+}
+.main-image{
+    width: 100%;
+    display: flex;
+    padding: 3%;
+}
+.main-image img{
+    width: 100%;
+    display: block;
+}
+.content-text{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5%;
+}
+.content-text p{
+    margin: 1% 0;
+    color: rgb(168, 168, 168);
+}
+.content-text p:nth-child(1){
+    font-size: 20px;
+}
+.content-text p:nth-child(2){
+    font-size: 30px;
+    color: rgb(126, 125, 125);
+}
+.content-text p:nth-child(3){
+    font: size 25px;
+    color: rgb(126, 125, 125);
+}
+.content-image{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.content-image-1{
+    display:flex;
+    flex-direction: column;
+    width: 45%;
+}
+.content-image-1 p{
+    margin: 1% 0;
+}
+.content-image-1 p:nth-child(2){
+    color: rgb(168, 168, 168);
+}
+.content-image-1 p:nth-child(3){
+    font-size: 30px;
+    color: rgb(110, 110, 110);
+}
+.content-image-1 p:nth-child(4){
+    font-size:25px;
+    color: rgb(126, 125, 125);
+}
+.content-input{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(161, 161, 161);
+    padding: 5% 0;
+}
+.content-input p:nth-child(1){
+    font-size: 28px;
+    margin-bottom: 1.5%;
+}
+.content-input p:nth-child(2){
+    font-size: 20px;
+    text-align: right;
+    border-bottom: 1px solid;
+}
+.content-button >*{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.content-button{
+    text-align: center;
+    margin: 5%;
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(161, 161, 161);
+    padding: 0.5% 0;
+    font-size: 25px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+footer span{
+    margin-right: 10%;
+}
